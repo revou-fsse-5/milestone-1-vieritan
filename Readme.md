@@ -32,4 +32,14 @@
 * untuk mendeploy ke netlify harus upload dulu ke github
 dan selanjutnya pilih deploy yang ada di github
 
+![gambar](./SS/upload4.png)
+* setelah di upload ke dalam netlify langkah pertama adalah menghapus domain yang sebelumnya kalian pakai di website
+
+![gambar](./SS/upload3.png)
+* langka berikutnya adalah mengganti dengan nama domain yang baru
+
+![gambar](./SS/upload6.png)
+* setelah menentukan nama domain kalian tunggu beberapa saat
+
+
 * dan menggunakan domain yang sudah di beli
