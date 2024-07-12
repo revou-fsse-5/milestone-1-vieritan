@@ -42,4 +42,5 @@ dan selanjutnya pilih deploy yang ada di github
 * setelah menentukan nama domain kalian tunggu beberapa saat
 
 
-* dan menggunakan domain yang sudah di beli
+## Hasil domainnya
+https://milestone.tugasrevou.online/
