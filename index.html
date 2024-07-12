@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas milestone</title>
+    <link rel="stylesheet" href="header.css  ">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <header>
+
+        <!-- navbar menu -->
+        <nav class="navbar">
+            <div class="container">
+         
+                <!-- logo sepatu -->
+                <a href="###" class="logo">
+                    MySepatu
+                </a>
+
+                <div>
+                    <ul class="menu">
+                        <li><a class="pulldown" href="#">Home</a></li>
+                        <li><a class="pulldown" href="#">Tentang</a></li>
+                        <li><a class="pulldown" href="#">Produk</a></li>
+                        <li><a class="pulldown" href="#">Layanan</a></li>
+                        <li><a class="pulldown" href="#">Kontak Kami</a></li>
+                    </ul>
+                </div>
+         
+                <!-- tombol garis 3 -->
+                <div class="tombol">
+                    &#9776;
+                </div>
+         
+            </div>
+        </nav>
+         
+         
+            <script type="text/javascript">
+                // deklarasi tombol dan menu
+                const tombol = document.querySelector('.tombol');
+                const menu = document.querySelector('.menu');
+         
+                // membuat event click
+                // pada saat tombol di click, tambahkan class aktif pada class menu
+                // saat diklik lagi, maka class aktif dihilangkan dari class menu (toggle)
+                tombol.addEventListener('click', () => {
+                    menu.classList.toggle('aktif');
+                });
+            </script>
+
+    <div class="welcome">
+        <!-- parallax -->
+        <div class="parallax">
+            <div class="judul">
+                <h1 class="h1_judul">
+                MySepatu
+                </h1>
+                <p class="p1">
+                    Sepatu yang di buat dari tangan kreatif masyarakat Indonesia
+                </p>
+
+                <!-- <button> ReadMe </button> -->
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <main>
+        <!-- judul Tentang Perusahaan -->
+        <div class="tentang-perusahaan">
+            <h2 class="tentang2">Tentang Perusahaan</h2>
+            <p class="paragraf-tentang">
+                Industri sepatu merupakan salah satu sektor bisnis yang telah ada sejak lama dan terus berkembang hingga saat ini. 
+                MySepatu merupakan perusahaan sepatu ternama telah memiliki sejarah panjang dalam pembentukan dan pertumbuhannya, menjadikan mereka 
+                pemain utama dalam pasar global.
+            </p>
+        <!-- card container & card -->
+        <div class="card-container">
+            <div class="card">
+                <img src="./gambar/pabrik sepatu/pabrik.jpg" alt="pabrik">
+                <div class="card-content">
+                    <h3 class="card_judul">Tentang Perusahaan</h3>
+                    <p>
+                        Perusahaan sepatu adalah entitas bisnis yang bergerak dalam industri persepatuan, mencakup desain, produksi, distribusi, dan 
+                        penjualan berbagai jenis sepatu untuk konsumen. Perusahaan sepatu umumnya terdiri dari beberapa divisi atau departemen yang 
+                        menangani aspek-aspek berbeda dalam rantai nilai industri ini.
+                    </p>
+                    <a href="" class="card-button"> Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./gambar/pabrik sepatu/bahan sepatu.webp" alt="bahan sepatu">
+                <div class="card-content">
+                    <h3 class="card_judul">Bahan Sepatu</h3>
+                    <p>
+                        Dalam industri sepatu, pemilihan bahan baku yang tepat merupakan elemen kunci dalam menentukan kualitas, kenyamanan, dan daya tahan sebuah produk. 
+                        Berbagai jenis bahan digunakan dalam pembuatan sepatu, masing-masing dengan karakteristik dan keunggulan yang berbeda-beda. 
+                    </p>
+                    <a href="" class="card-button"> Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./gambar/pabrik sepatu/jenis sepatu.jpg" alt="jenis sepatu">
+                <div class="card-content">
+                    <h3 class="card_judul">Jenis Sepatu</h3>
+                    <p>
+                        Di perusahaan kami, kami bangga menawarkan beragam jenis sepatu yang dirancang untuk memenuhi kebutuhan dan gaya hidup pelanggan kami. 
+                        Kami telah menghabiskan banyak waktu dan usaha untuk mengembangkan koleksi sepatu kami yang luas dan beragam, sehingga kami yakin bahwa pelanggan kami 
+                        dapat menemukan sepatu yang sempurna untuk memenuhi segala kebutuhan mereka.
+                    </p>
+                    <a href="" class="card-button"> Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sekilas -->
+    <div class="conten1">
+        <h1 class="conten_judul">
+            Sekilas
+        </h1>
+    </div>
+
+    <div class="isi">
+        <div class="isi_judul1">
+            <h2 class="judul_isi">
+                Tentang MySepatu
+            </h2>
+            <p class="isi_paragraf">
+                perusahaan sepatu yang baru dibuka pada tahun 2024 dan sudah menjadi pemain baru yang menjanjikan di 
+                industri alas kaki. Kami hadir dengan visi untuk menyediakan sepatu-sepatu berkualitas tinggi yang tidak 
+                hanya fungsional, tetapi juga mencerminkan gaya hidup modern dan berkelanjutan.
+            </p>
+        </div>
+
+        <div class="isi_judul1">
+            <h2 class="judul_isi">
+                Lokasi Perusahaan
+            </h2>
+            <p class="isi_paragraf">
+                Perusahaan Sepatu Langit memiliki lahan yang strategis dan memadai untuk mendukung operasional 
+                dan pertumbuhan bisnisnya di masa depan. Dengan fasilitas-fasilitas pendukung yang modern dan berwawasan lingkungan, 
+                serta fokus pada kesejahteraan karyawan, lahan Perusahaan Sepatu Langit tidak hanya menjadi tempat beroperasi, tetapi juga 
+                sebagai lingkungan kerja yang inovatif dan mendukung pertumbuhan bisnis secara berkelanjutan.
+            </p>
+        </div>
+
+        <div class="isi_judul1">
+            <h2 class="judul_isi">
+                Bahan Sepatu
+            </h2>
+            <p class="isi_paragraf">
+                Perusahaan Sepatu Langit sangat memperhatikan kualitas dan pemilihan bahan-bahan dalam pembuatan produk sepatu mereka.
+                Dengan pemilihan bahan-bahan berkualitas tinggi dan penerapan teknologi konstruksi canggih, Sepatu Langit berkomitmen 
+                untuk menghadirkan produk sepatu yang nyaman, tahan lama, dan memenuhi ekspektasi pelanggan yang tinggi akan kualitas.
+            </p>
+        </div>
+    </div>
+
+    <!-- leadership -->
+    <div class="leader">
+        <h2>Leadership</h2>
+    </div>
+
+    <div class="leadership">
+        <div class="card_leader">
+            <img src="./gambar/pabrik sepatu/leadership/profil 1.webp" 
+            alt="Avatar1">
+            <div class="container_leader">
+                <div class="nama_leader">
+                    <h3>Tommy</h3>
+                </div>
+                <div class="p_leader"> 
+                    <p>Architect & Engineer</p>
+                </div> 
+            </div>
+        </div>
+
+        <div class="card_leader">
+        <img src="./gambar/pabrik sepatu/leadership/profil 2.webp" 
+        alt="Avatar2">
+        <div class="container_leader">
+          <div class="nama_leader">
+              <h3>Matthew</h3>
+          </div>
+          <div class="p_leader"> 
+              <p>Designer</p>
+          </div> 
+        </div>
+      </div>
+
+      <div class="card_leader">
+        <img src="./gambar/pabrik sepatu/leadership/profil 3.webp" 
+        alt="Avatar3">
+        <div class="container_leader">
+          <div class="nama_leader">
+              <h3>Rony</h3>
+          </div>
+          <div class="p_leader"> 
+              <p>Software Engineer</p>
+          </div> 
+        </div>
+      </div>
+
+      <div class="card_leader">
+        <img src="./gambar/pabrik sepatu/leadership/profil 4.webp" 
+        alt="Avatar3">
+        <div class="container_leader">
+          <div class="nama_leader">
+              <h3>Jony</h3>
+          </div>
+          <div class="p_leader"> 
+              <p>Director</p>
+          </div> 
+        </div>
+      </div>
+
+    </div>
+
+    <h1>Karir</h1>
+
+    <button class="accordion">Jobdesk</button>
+    <div class="panel">
+    <h2 class="judul_karir">Perancang Sepatu (Shoe Designer)</h2>
+        <p class="isi_karir">    
+        1. Bertanggung jawab merancang desain sepatu yang inovatif dan sesuai dengan tren terkini.
+            <br>
+        2. Memiliki pemahaman yang kuat tentang tren fashion, ergonomi, dan konstruksi sepatu.
+            <br>
+        3. Mampu menggunakan perangkat lunak desain grafis dan CAD dengan mahir
+        </p>
+    </div>
+
+    <button class="accordion">Benefit</button>
+    <div class="panel">
+    <h2 class="benefit">Dengan senang hati, berikut adalah deskripsi tentang manfaat (benefit) yang 
+        ditawarkan oleh Perusahaan Sepatu kami:
+    </h2>
+    <p>Paket Kompensasi yang Kompetitif :
+            <br>
+        1. Gaji pokok yang menarik sesuai dengan pengalaman dan kualifikasi
+            <br>
+        2. Bonus kinerja dan insentif berdasarkan pencapaian target
+            <br>
+        3. Tunjangan kesehatan dan asuransi jiwa yang komprehensif
+            <br>
+        4. Program tabungan pensiun dan kepemilikan saham karyawan
+    </p>
+    </div>
+
+    <button class="accordion">Informasi Pendaftaran</button>
+    <div class="panel">
+    <p>
+        dapat menghubungi : +62 8912312312
+        <br>
+        email : asdasdqwd@gmail.com
+    </p>
+    </div>
+
+    </main>
+    <!-- footer -->
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>My<span>Sepatu</span></h3>
+
+        <p class="footer-links">
+          <a href="#" class="link-1">Home</a>
+          
+          <a href="#">Blog</a>
+        
+          <a href="#">Pricing</a>
+        
+          <a href="#">About</a>
+          
+          <a href="#">Faq</a>
+          
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">MySepatu © 2024</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Tangerang</span> Jl gak tau</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+62 871238123123</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">support@company.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the company</span>
+          Inti dari filosofi kami adalah keyakinan bahwa sepatu bukan hanya sekedar alas kaki, 
+          melainkan cerminan dari gaya hidup, kepribadian, dan aspirasi seseorang. 
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+</body>
+</html>

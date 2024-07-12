@@ -1,0 +1,216 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: aqua;
+} */
+
+/* konten card */
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.card{
+    width: 325px;
+    background-color: #9CDBA6;
+    border: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.6s ease;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover ;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-family: OpenSans_SemiCondensed-Regular;
+}
+
+.card-button {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+/* tentang card judul */
+.card_judul {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin: 1px;
+}
+
+/* bg tentang perusahaan */
+.tentang-perusahaan {
+	background-color:  #50B498;
+    font-size: 30px;
+}
+
+/* judul tentang */
+.tentang2 {
+    display: flex;
+	font-size: 50px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    font-family: OpenSans_Condensed-SemiBold;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+
+/* paragraf */
+.tentang-perusahaan {
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.5; /* Jarak antar baris */
+    text-align: justify; /* Rata kiri-kanan */
+    font-size: 16px; /* Ukuran font */
+    font-family: OpenSans_Condensed-SemiBold; /* Jenis font */
+    color: #000000;
+}
+
+/* box konten sekilas */
+.isi {
+    display: flex;
+	font-size: 50px;
+    color: rgb(0, 0, 0);
+    /* justify-content: center;
+    align-items: center; */
+    font-family: OpenSans_Condensed-ExtraBoldItalic;
+    padding: 10px;
+}
+
+.judul_isi {
+    font-size: 20px;
+}
+
+.isi_paragraf {
+    font-size: 16px;
+    font-family: OpenSans_Condensed-ExtraBoldItalic;
+    text-align: justify;
+}
+
+.isi_judul1 {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    border: 1px solid rgba(255, 255, 255, 0.57);
+    padding: 20px;
+    justify-content: center;
+}
+
+/* leadership */
+.leader {
+    background-color: #059212;
+}
+
+.leadership {
+    display: flex;
+    background-color: #059212;
+    column-gap: 30px;
+    padding: 10px;
+}
+
+.card_leader {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #06D001;
+    border: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.6s ease;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container_leader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+    margin-top: 0;
+}
+
+.nama_leader {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.p_leader {
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+/* accordion */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .judul_karir {
+    font-size: 20px;
+  }
+
+  .isi_karir {
+    font-size: 16px;
+  }
